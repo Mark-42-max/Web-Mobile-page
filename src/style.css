@@ -1,0 +1,341 @@
+/*utils*/
+
+.demo-width {
+    width: 70%;
+    height: 5rem;
+}
+
+.width-right {
+    margin-right: 2rem;
+}
+
+.mid-align-item {
+    margin: auto;
+}
+
+.diff-item {
+    margin: 2rem;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.large-text {
+    font-size: 2em;
+}
+
+
+/*Actual Css*/
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font1: "";
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    padding: 2rem 4rem 2rem 4rem;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-header {
+    width: 50%;
+    height: inherit;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.login {}
+
+.signup {}
+
+.navbar-buttons {
+    width: 50%;
+    height: inherit;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.content1 {
+    width: 100%;
+    height: 70vh;
+    padding: 2rem;
+}
+
+.iit {
+    width: 30%;
+    height: 6rem;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-ref {
+    width: 30%;
+    height: 10rem;
+    background-color: blue;
+}
+
+.full-ref .ref-txt {
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.content1-btn {
+    padding: 3rem;
+    width: 30%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.know-btn {
+    margin-top: 10vh;
+    /*todo button styling*/
+}
+
+.how-btn {
+    margin-top: 10vh;
+    /*todo button styling*/
+}
+
+.explore-btn {
+    margin-top: 5vh;
+    /*todo button styling*/
+}
+
+.content2 {
+    width: 90%;
+    height: 80vh;
+    /* background-color: red; */
+    padding: 2rem;
+}
+
+.header2 {
+    margin: 1rem 1rem 5rem 1rem;
+}
+
+.header2 {
+    margin: 1rem 1rem 5rem 1rem;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.video2 {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video2 iframe {
+    width: 50%;
+    height: 20vw;
+}
+
+
+/* Media: css */
+
+@media screen and (max-width: 500px) {
+    /*utils*/
+    .demo-width {
+        width: 70%;
+        height: 5rem;
+    }
+    .width-right {
+        margin-right: 0.3rem;
+    }
+    .mid-align-item {
+        margin: auto;
+    }
+    .diff-item {
+        margin: 2rem;
+    }
+    .txt-center {
+        text-align: center;
+    }
+    .bold {
+        font-weight: bold;
+    }
+    .large-text {
+        font-size: 2em;
+    }
+    /*Actual Css*/
+    .navbar {
+        padding: 2rem 3rem 2rem 4rem;
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar-header {
+        width: 50%;
+        height: inherit;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    .login {}
+    .signup {}
+    .navbar-buttons {
+        width: 50%;
+        height: inherit;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .content1 {
+        width: 100%;
+        height: 90vh;
+        margin: auto;
+        background-color: rgb(219, 132, 219);
+    }
+    .iit {
+        width: 90%;
+        height: 15vh;
+        background-color: blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .full-ref {
+        width: 90%;
+        height: 30vh;
+        background-color: transparent;
+    }
+    .full-ref .ref-txt {
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+    .content1-btn {
+        padding: 3rem;
+        width: 90%;
+        height: 6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .know-btn {
+        margin-top: 5vh;
+        /*todo button styling*/
+    }
+    .how-btn {
+        margin-top: 10vh;
+        /*todo button styling*/
+    }
+    .explore-btn {
+        margin-top: 5vh;
+        /*todo button styling*/
+    }
+    .content2 {
+        width: 90%;
+        height: 125vh;
+        background-color: violet;
+        padding: 2rem;
+    }
+    .header2 {
+        margin: 1rem 1rem 5rem 1rem;
+    }
+    .header-content {
+        text-align: left;
+    }
+    .video2 {
+        margin: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .video2 iframe {
+        width: 60%;
+        height: 36vw;
+    }
+    .header2a {
+        /* padding: 1rem; */
+        background-color: rgb(226, 37, 226);
+        width: 110%;
+        height: 55%;
+        margin-left: -0.7rem;
+        display: grid;
+        grid-template-columns: 40vw 40vw;
+        grid-template-rows: 20vh 20vh;
+        grid-row-gap: 1rem;
+        grid-column-gap: 1rem;
+    }
+    .cell {
+        background-color: green;
+        width: 100%;
+        height: 100%;
+        padding-top: 3rem;
+        border-radius: 2rem;
+    }
+    .content3 {
+        width: 90%;
+        height: 100vh;
+        background-color: red;
+    }
+    .btndude {
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .success-recepie p {
+        text-align: center;
+    }
+    .comp-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .comp-txt {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+    }
+    .comp-txt ul li {
+        list-style-type: none;
+        list-style-image: url(https://img.icons8.com/color/48/000000/checkmark.png);
+    }
+}
